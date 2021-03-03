@@ -26,8 +26,7 @@ public class AppConfig {// 객체의 생성과 연결 담당
 
     @Bean
     public OrderService orderService(){
-
-        return new OrderServiceImpl(memberRepository(), discountPolicy());
+       return new OrderServiceImpl(memberRepository(), discountPolicy());
     }
 
     @Bean

@@ -3,15 +3,18 @@ package hello.core.order;
 import hello.core.discount.DiscountPolicy;
 import hello.core.member.Member;
 import hello.core.member.MemberRepository;
+
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class OrderServiceImpl implements OrderService{
 
-    private final MemberRepository memberRepository;
-    private final DiscountPolicy discountPolicy; //DIP 지킴
-    @Autowired
+    private final  MemberRepository memberRepository;
+    private final  DiscountPolicy discountPolicy; //DIP 지킴
+
+    @Autowired // 생성자 주입(의존관계) - 불변, 필수 의존관계 시 사용 생성자가 하나 있을 시 @Autowired 생략 가능
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;
@@ -27,4 +30,6 @@ public class OrderServiceImpl implements OrderService{
     public MemberRepository getMemberRepository() {
         return memberRepository;
     }
+
+
 }
