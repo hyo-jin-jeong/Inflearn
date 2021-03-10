@@ -16,5 +16,7 @@
 - 빈 생명주기 콜백 
 - 빈 스코프 (prototype scope, web scope, povier, proxy 등)
 
+
+
 ## jpashop folder - spring boot & jpa 강의 공부
 스프링 부트와 jpa를 활용하여 웹 애플리케이션 개발을 해본다.
