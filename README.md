@@ -19,4 +19,4 @@
 
 <br><br>
 ## jpashop folder - spring boot & jpa 강의 공부
-스프링 부트와 jpa를 활용하여 웹 애플리케이션 개발을 해본다.
+스프링 부트와 jpa를 활용하여 간단한 웹 애플리케이션 개발
