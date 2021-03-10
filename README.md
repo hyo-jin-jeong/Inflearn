@@ -1,7 +1,8 @@
 # Inflearn
 
-## spirng folder → spring 강의 공부 
+## spirng folder - spring 강의 공부 
 공부 내용 
+
 ● 스프링 핵심 원리 
 - 다형성 
 - SOLID [OCP, DIP]
