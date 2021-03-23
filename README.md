@@ -1,4 +1,4 @@
-# Inflearn
+# Study 
 
 ## spirng folder - spring 강의 공부 
 공부 내용 
