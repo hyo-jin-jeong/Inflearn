@@ -1,4 +1,3 @@
->> View 부분은 직접 구현하지 않았습니다.
 ## spirng folder - spring 강의 공부 
 공부 내용 
 
@@ -20,5 +19,6 @@
 ## jpashop folder - spring boot & jpa 강의 공부
 스프링 부트와 jpa를 활용하여 간단한 웹 애플리케이션 개발
 
+> View 부분은 직접 구현하지 않았습니다.
 
 
